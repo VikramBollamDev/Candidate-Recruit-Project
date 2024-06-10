@@ -1,0 +1,101 @@
+.candidate-details {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .title h1 {
+    margin: 0;
+  }
+  
+  .title input {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  .actions button {
+    margin-left: 10px;
+  }
+  
+  .profile {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile-info {
+    display: flex;
+  }
+  
+  .profile-info img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .contact p {
+    margin: 5px 0;
+  }
+  
+  .profile-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .detail label {
+    font-weight: bold;
+  }
+  
+  .tabs {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .assigned-jobs, .notes {
+    margin-top: 20px;
+  }
+  
+  .job-list .job {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .note {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
